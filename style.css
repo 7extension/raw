@@ -1,0 +1,894 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("/_fonts/minecraftfont.ttf"),
+  url("Minecraft.woff") format("woff");
+}
+
+
+body {
+  background-color: #212528;
+  color: #c0c0c0;
+}
+header {
+padding-top: 60px;
+}
+
+main { margin: 20px 0; }
+
+.phone { display: none; }
+
+@media only screen and (max-width: 600px) {
+.phone { display: inherit; }
+}
+
+@media only screen and (max-width: 990px){
+.desktop { display: none; }
+}
+
+
+.default-panel {
+margin: 20px 0;
+width: 100%;
+color: #c0c0c0;
+background-color: #2b2e33;
+border-radius: 10px;
+padding: 20px;
+border-bottom: 3px solid #313439;
+}
+
+.icon {
+color: #e67e22;;
+}
+
+.light-title { color: #f1f1f1; }
+
+.light-title:hover { color: #f1f1f1; }
+
+
+
+.navbar-nav a:visited,
+.navbar-nav a:link {
+color: white;
+}
+.fix {clear: both;}
+.menu {
+  padding: 5px 0;
+  min-height: 80px;
+  border-bottom: 5px solid #2A2D32;
+}
+
+.bg-dark {
+  background-color: #1e272e;
+}
+.navbar-dark {
+  background-color: #212528;
+  color: #485460;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #c0c0c0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e67e22;
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #c0c0c0;
+}
+.nav-item {
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+.navbar-brand {
+    display: none;
+}
+
+.navbar-brand-text {
+    display: block;
+
+}
+}
+
+
+.navbar-brand-text {
+  display: none;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.navbar-brand-text {
+    display: inherit;
+    padding-left: 15px;
+}
+}
+
+
+.icon {
+  color: #e67e22;
+  margin-right: 5px;
+}
+
+.top-panel {
+  background: url('http://mineplay.pl/_img/header.png');
+  background-position: center;
+
+
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.top-players {
+  padding-top: 90px;
+}
+@media only screen and (max-width: 600px) {
+.top-players {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+}
+.top-players-text {
+  color: #7f8c8d;
+}
+.top-panel .progress {
+  width: 51%;
+  height: 6px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+.progress {
+    margin: 0 auto;
+    width: 70%;
+}
+}
+
+.top-panel .progress {
+  background: #1e272e;
+}
+
+.panel-count {
+  color: #e67e22;
+  font-weight: 600;
+}
+
+.players-text-color {
+  color: #e67e22;
+  font-weight: 600;
+}
+
+.top-panel p {
+  line-height: 2px;
+  font-size: 13px;
+}
+
+.top-minigames {
+  padding-top: 90px;
+  padding-bottom: 60px;
+
+}
+
+.top-minigames-list {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.minigame-icon {
+width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.top-minigames {
+    display: none;
+}
+}
+
+.top-minigames-info {
+padding: 0 25px;
+}
+
+
+.staff {
+  background-color: #2B2E33;
+  margin: 20px 0;
+  color: #c0c0c0;
+}
+.staff-list {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+.staff-list {
+    display: none;
+}
+}
+
+.staff-list-phone {
+text-align: center;
+display: none;
+width: 140px;
+padding-top: 10px;
+margin: 20px auto;
+}
+
+@media only screen and (max-width: 600px) {
+.staff-list-phone {
+    display: inherit;
+}
+}
+
+.staff-options {
+  padding: 20px 0;
+  background-color: #313439;
+}
+
+@media only screen and (max-width: 600px) {
+.staff-options{
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+}
+
+
+.staff-item {
+  width: 90%;
+  padding: 10px 0;
+  border: 3px solid #26292A;
+  border-radius: 3px;
+  background-color: #1B2024;
+}
+
+@media only screen and (max-width: 600px) {
+.staff-item {
+    float: none;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.staff-text{
+    padding-top: 25px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+}
+
+
+.staff-img {
+  padding-top: 40px;
+}
+
+.staff-desc {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.staff-nick {
+  background-color: #252932;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.ranga-wlasciciel {
+  color: red;
+
+}
+.ranga-admin {
+  color: red;
+
+}
+
+@media only screen and (max-width: 600px) {
+.carousel {
+    display: none;
+}
+}
+
+
+.wallet {
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+width: 95%;
+padding: 15px;
+float: right;
+background-color: #e67e22;
+text-align: center;
+color: #f1f1f1;
+
+}
+@media only screen and (max-width: 600px) {
+.sidebar {
+    display: none;
+}
+}
+
+.history {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 95%;
+  padding: 15px;
+  float: right;
+  background-color: #2B2E33;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.discord {
+  margin-top: 15px;
+  width: 95%;
+  float: right;
+}
+
+.buyer {
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+
+footer {
+  border-top: 15px solid #313439;
+  margin-top: 40px;
+  color: #c0c0c0;
+  background-color: #2B2E33;
+  padding-top: 30px;
+}
+
+footer a:link,
+footer a:focus,
+footer a:visited {
+color: #c0c0c0;
+}
+
+footer a:hover {
+text-decoration: underline;
+color: #c0c0c0;
+}
+
+
+@media only screen and (max-width: 600px) {
+footer .col-md-3 {
+    text-align: center;
+}
+}
+
+.copy {
+  background-color: #272A2F;
+  color: #414141;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  line-height: 14px;
+}
+
+.copy a,
+.copy a:link,
+.copy a:visited,
+.copy a:focus {
+  color: #515151;
+}
+
+.social-media {
+text-align: center;
+float: left;
+width: 25%;
+padding: 20px 0;
+}
+
+.social-link,
+.social-link:hover,
+.social-link a:visited,
+.social-link a:focus,
+.social-link a:link {
+color: #c0c0c0;
+}
+
+.youtube {
+background-color: #cc181e;
+}
+
+.youtube:hover {
+background-color: #E80D0C;
+cursor: pointer;
+}
+
+.instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+  
+.instagram:hover {
+  background: #f09433;
+  cursor: pointer;
+}
+
+.fanpage {
+background-color: #3b5998;
+}
+
+.fanpage:hover {
+background-color: #3B4698;
+  cursor: pointer;
+}
+
+.discord-social {
+background-color: #7289da;
+}
+
+.discord-social:hover {
+background-color: #5d76cf;
+}
+
+
+/* STAFF SECTION */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*================================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.carousel-item > div {
+float: left;
+}
+.carousel-by-item [class*="cloneditem-"] {
+display: none;
+}
+
+
+.our-adm{
+  border-bottom: 5px solid #313439;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  background-color: #212528;
+  height: 100%;
+}
+
+.team-yt {
+position: absolute;
+left: 0;
+top: 0;
+width: 25px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+background: #cc181e;
+color: white;
+border-radius: 5px;
+}
+
+.our-team-wlasciciel:hover {
+border-bottom: 5px solid #ff4444;
+}
+
+.our-team-admin:hover {
+  border-bottom: 5px solid #ff4444;
+  }
+
+.our-team-moderator:hover {
+border-bottom: 5px solid #44bd32;
+}
+
+.our-team-pomocnik:hover {
+  border-bottom: 5px solid #325ebd;
+}
+
+.our-adm:after{
+  width: 106%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(0.25);
+}
+.our-adm:hover:before{ transform: translateY(-50%) scaleX(0.7); }
+.our-adm:hover:after{ transform: translate(-50%, -50%) scaleY(0.7);}
+.our-adm img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+}
+.our-adm .team-content {
+  width: 93%;
+  padding: 15px 0 5px;
+
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  opacity: 0;
+  -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  transform: translateX(-50%);
+  transition: all 0.3s cubic-bezier(0.5, 0.2,0.1,0.9);
+}
+
+.team-wlasciciel {
+background: #ff4444;
+}
+
+.team-admin {
+  background: #ff4444;
+  }
+
+.team-moderator {
+background: #44bd32;
+}
+
+.team-pomocnik {
+  background:#325ebd;
+}
+
+.our-adm:hover .team-content{
+  bottom: 10px;
+  opacity: 1;
+}
+.our-adm .title{
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.our-adm .post{
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.our-adm .social{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.our-adm .social li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.our-adm .social li a{
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 12px;
+  color: #ff3232;
+  transition: all 0.3s ease 0s;
+}
+.our-adm .social li a:hover{
+  background: linear-gradient(to bottom,#ff3232, darkred);
+  box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+  color: #fff;
+}
+@media only screen and (max-width: 990px){
+  .our-adm{ margin-bottom: 30px; }
+}
+/* END STAFF SECTION */
+
+.news {
+width: 100%;
+float: left;
+margin-top: 20px;
+color: #c0c0c0;
+background-color: #2b2e33;
+border-radius: 10px;
+border-bottom: 3px solid #313439;
+}
+
+.news-title {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 20px;
+background-color: #8c7ae6;
+color: #f1f1f1;
+}
+
+@media only screen and (max-width: 990px){
+.news-title small { display: none; }
+}
+
+
+.news-precontent {
+padding: 20px;
+}
+.news-content {
+  border-left: 3px solid #313439;
+  padding-left: 20px;
+}
+
+.changelog {
+width: 95%;
+float: right;
+margin-top: 20px;
+color: #c0c0c0;
+background-color: #2b2e33;
+border-radius: 10px;
+padding: 20px;
+border-bottom: 3px solid #313439;
+}
+
+.changelog-p {
+font-size: 13px;
+}
+
+.wazne {
+border-bottom: 3px solid #ff4444;
+}
+
+
+.changelog-content {
+border-left: 3px solid #313439;
+padding-left: 20px;
+}
+
+.changelog a:link,
+.changelog a:visited,
+.changelog a.focus {
+color: #44474b;
+}
+
+.changelog a:hover {
+text-decoration: underline;
+}
+
+@media only screen and (max-width: 990px){
+  .changelog { display: none; }
+}
+
+.read-more {
+color: #44474b;
+}
+.read-more:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+.forum-panel {
+margin: 40px 0;
+padding: 50px 0;
+background: url('http://mineplay.pl/_img/header.png');
+background-size: cover;
+background-attachment: fixed;
+color: #f1f1f1;
+text-align: center;
+}
+
+
+
+
+.forum-link {
+background-color: #e67e22;
+border-radius: 5px;
+padding: 3px 10px 5px 10px;
+color: #f1f1f1;
+border: 2px solid #e67e22;
+
+}
+
+.forum-link:hover {
+background-color: transparent;
+text-decoration: none;
+color: #f1f1f1;
+}
+
+.topka {
+margin: 20px 0;
+width: 100%;
+color: #c0c0c0;
+background-color: #2b2e33;
+border-radius: 10px;
+padding: 20px;
+border-bottom: 3px solid #f6b93b;
+}
+
+.topka-title {
+color: #f1f1f1;
+font-weight: 700;
+font-size: 16px;
+}
+
+.topka td,
+.topka th {
+padding: 10px 20px;
+text-align: center;
+max-width: 110px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.topka a:link,
+.topka a:focus,
+.topka a:visited {
+color: #c0c0c0;
+}
+
+.topka a:hover {
+text-decoration: underline;
+color: #c0c0c0;
+}
+
+.topki-lista {
+border-bottom: 3px solid #44bd32;
+}
+
+.topki-statystyki {
+border-bottom: 3px solid #60a3bc;
+}
+
+@media only screen and (max-width: 990px){
+.topki { display: none; }
+}
+
+/* SKLEP */
+
+.payment-method {
+background-color: #2b2e33;
+border-bottom: 3px solid #313439;
+border-radius: 10px;
+padding: 20px;
+}
+
+
+.form-control:focus {
+color: #c0c0c0;
+}
+.form-control {
+outline: none;
+color: #c0c0c0;
+}
+
+.bg-dark .btn-link { color: #f1f1f1; }
+
+.default-panel .bg-dark,
+.payment-method .bg-dark {
+border: 1px solid #313439;
+}
+
+/* KONIEC SKLEP */
+
+
+.modal .dark {
+  background-color: red;
+}
+
+.modal .dark .modal-body {
+  background: red;
+}
+
+.modal .dark .modal-header {
+  background: red;
+}
+
+.modal .dark .modal-footer {
+  background: red;
+}
+
+.modal-content {
+  background: #212529;
+  color: #c0c0c0;
+}
+
+/*
+   FILE ARCHIVED ON 20:36:21 Dec 30, 2018 AND RETRIEVED FROM THE
+   INTERNET ARCHIVE ON 14:08:10 Nov 28, 2020.
+   JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+   ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+   SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+LoadShardBlock: 155.408 (3)
+exclusion.robots.policy: 0.141
+esindex: 0.017
+captures_list: 192.402
+load_resource: 79.935
+PetaboxLoader3.resolve: 31.142
+exclusion.robots: 0.153
+RedisCDXSource: 11.106
+CDXLines.iter: 21.642 (3)
+PetaboxLoader3.datanode: 86.519 (4)
+*/
+
+/* Ranks */
+
+
+.rangi {
+  margin-bottom: 30px;
+}
+tr:first-child .rangi td, .rangi th {
+  border: 0;
+}
+
+td:nth-child(n+2),
+th:nth-child(n+2) {
+  text-align: center;
+}
+
+.table thead th {
+  border: 0;
+}
+
+.table td, .table th {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.rank-info {
+  color: #ffffff;
+  text-shadow:  3px 3px 1px #3f3f3f;
+  font-size: 1.4rem;
+}
+
+.rank {
+  font-family: Minecraft;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+
+.rank-sponsor {
+  color: #00AA00;
+  text-shadow:  3px 3px 1px #002A00;
+}
+
+.rank-plus {
+  color: #FF5555;
+  text-shadow:  3px 3px 1px #3F1515;
+  font-size: 1.4rem;
+}
+
+.rank-vip-plus {
+  color: #FFAA00;
+  text-shadow:  3px 3px 1px #2A2A00;
+  font-size: 1.4rem;
+}
+
+.rank-mvpplusplus {
+  color: #FFAA00;
+  text-shadow:  3px 3px 1px #2A2A00;
+}
+
+.rank-mvp {
+  color: #55FFFF;
+  text-shadow:  3px 3px 1px #153F3F;
+}
+
+.rank-vip {
+  color: #55FF55;
+  text-shadow:  3px 3px 1px #153f15;
+}
+
+.suggest {
+  background-color: #2d3035;
+  font-weight: 700;
+}
+
+.rangi .fa-check {
+  color: #7e9513;
+}
+
+.rangi .fa-times {
+  color: #d31c06;
+}
